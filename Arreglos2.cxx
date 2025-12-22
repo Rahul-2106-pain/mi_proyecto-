@@ -6,7 +6,7 @@ int main (){
     cout<<"Ingrese el elemento para la posicion "<< i<< ":";
     cin>> numeros[i];
     }
-    cin.ignore();
+    cin.ignore(); 
 
     for ( int i=0 ; i< 5 ; i++) {
          cout<<"La posicion "<< i << " es "<<numeros[i]<<endl;    
