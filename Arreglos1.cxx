@@ -1,7 +1,6 @@
 #include <iostream>
 
 using namespace std;
-
 int main() {
     int numeros[] = {1, 4, 5, 6, 7};
     int suma = 0; 
@@ -15,3 +14,4 @@ int main() {
     cin.get();
     return 0;
 }
+

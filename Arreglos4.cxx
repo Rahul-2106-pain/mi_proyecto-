@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std ;
+#include <iostream>
+using namespace std;
 int main (){
     int numeros[]= {1,3,4,5,13};
     int suma = 0 ;
