@@ -7,7 +7,6 @@ int main (){
     cin>> numeros[i];
     }
     cin.ignore(); 
-
     for ( int i=0 ; i< 5 ; i++) {
          cout<<"La posicion "<< i << " es "<<numeros[i]<<endl;    
         
