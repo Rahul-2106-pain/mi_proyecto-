@@ -9,7 +9,7 @@ int main (){
         for(int j = 0;j<3;j++){
             cout<<"Ingrese los valores ["<<i<<"]["<<j<<"]: ";
             cin>>numeros[i][j];
-        }
+        } 
     }
     
     cout<<"Ingrese los valores de la segunda matriz\n";
