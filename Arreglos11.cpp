@@ -7,7 +7,7 @@ int main (){
     cout<<"Ingrese los valores de la primera matriz\n";
     for(int i=0;i<3;i++){
         for(int j = 0;j<3;j++){
-            cout<<"Ingrese los valores ["<<i<<"]["<<j<<"]";
+            cout<<"Ingrese los valores ["<<i<<"]["<<j<<"]: ";
             cin>>numeros[i][j];
         }
     }
@@ -15,11 +15,11 @@ int main (){
     cout<<"Ingrese los valores de la segunda matriz\n";
     for(int i=0;i<3;i++){
         for(int j = 0;j<3;j++){
-            cout<<"Ingrese los valores ["<<i<<"]["<<j<<"]";
+            cout<<"Ingrese los valores ["<<i<<"]["<<j<<"]: ";
             cin>>multi[i][j];
         }
     }
-    
+    cin.ignore();
     // Ahora multiplicaremos las matrices, empezando con la primera columna x la primera fila 
     	for(int i=0;i<3;i++){
 		for(int j=0;j<3;j++){
