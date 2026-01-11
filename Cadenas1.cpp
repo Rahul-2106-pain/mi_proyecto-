@@ -1,3 +1,8 @@
+//Diferencia escencial entre las matrices y cadenas
+//Las matrices si son definidos como int o char, solo pueden almacenar esos tipos de datos
+//En cambio una cadena puede almacenar todo tipo de dato 
+
+
 #include <iostream>
 #include <string.h>
 #include <string>
@@ -19,6 +24,22 @@ int main (){
     cout<<"Escriba su nombre:";
     cin.getline(nombre3,20,'\n');
     cout<<"Tu nombre es :"<< nombre3<<endl;
+
+
+    //Otra manera de usar una cadena falsa ( matriz unidimensional)
+    int name4[20];
+    for(int i=0;i<20; i++){
+
+        cout<<"Escriba el valor name4["<<i<<"]: ";
+        cin>>name4[i];
+    }
+    cin.ignore();
+        cout<<"Los valores de la cadena name4 son : ";
+
+        for(int i = 0 ; i<20 ; i++){
+            cout<<name4[i];
+        }
+
     cin.get();
     return 0 ; 
 }
